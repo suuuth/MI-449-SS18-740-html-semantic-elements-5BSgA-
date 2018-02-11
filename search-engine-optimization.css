@@ -1,0 +1,91 @@
+/*colors at https://coolors.co/202a25-b80c09-0b4f6c-ecf1f6-333333*/
+
+body {
+  background-color: #202a25;
+  color: #ecf1f6;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+div#wrap {
+  max-width: 1200px;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: rgba(51, 51, 51, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 75px;
+}
+
+nav>ul>li {
+  display: inline-block;
+  padding: 25px 10px;
+}
+
+nav>ul>li:hover {
+  background-color: rgba(51, 51, 51, 1);
+  cursor: pointer;
+}
+
+nav>ul>li>a {
+  color: #ecf1f6;
+  text-decoration: none;
+}
+
+header {
+  margin-top: 100px;
+}
+
+main {
+  margin-top: 100px;
+  border: 2px solid #ecf1f6;
+}
+
+article>div {
+  position: relative;
+}
+
+figure,
+figure img {
+  display: inline-block;
+}
+
+aside {
+  position: absolute;
+  top: 35px;
+  right: -120px;
+  width: 150px;
+  background-color: #0b4f6c;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  background-color: rgba(51, 51, 51, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 25px;
+}
