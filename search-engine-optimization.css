@@ -11,7 +11,7 @@ body {
 
 div#wrap {
   max-width: 1200px;
-  width: 60%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
 }
@@ -55,12 +55,33 @@ header {
 }
 
 main {
-  margin-top: 100px;
+  margin: 100px;
   border: 2px solid #ecf1f6;
 }
 
-article>div {
+main > article {
+  padding: 100px;
+}
+
+article.product {
   position: relative;
+}
+
+article.product nav {
+  background-color: unset;
+  position: unset;
+  text-align: center;
+  padding: 5px;
+  width: unset;
+}
+
+article.product nav a {
+  color: #ecf1f6;
+}
+
+article.product footer {
+  padding: 10px 0;
+  background: unset;
 }
 
 figure,
@@ -84,8 +105,6 @@ img {
 
 footer {
   background-color: rgba(51, 51, 51, 0.5);
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 25px;
 }
